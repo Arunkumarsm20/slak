@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slack</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+	<script type="text/javascript" src="slack.js"></script>
+	<link rel="stylesheet" type="text/css" href="slack.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+		<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+    <span class="sr-only">toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+			<a href="#" class="navbar-brand"><i class="fa fa-slack" aria-hidden="true"></i>
+Slack</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Product</a></li>
+			<li><a href="#">Pricing</a></li>
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Create a new workspace</a></li>
+			<li><a href="#">Find your workspace</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Sign Up <i class="fa fa-user-plus"></i></a></li>
+			
+		</ul>
+	</div>
+</nav>
+<div id="page_contents" data-qa="page_contents" class="">
+
+<div class="span_4_of_6 col float_none margin_auto no_right_padding">
+	
+		<p class="alert alert_info"><i class="ts_icon ts_icon_info_circle"></i> You need to sign in to see this page.</p>
+
+	
+<p id="error_ratelimit" class="alert alert_warning" style="display: none;">
+	<i class="ts_icon ts_icon_warning"></i>
+	
+	<strong>Too many login failures!</strong><br class="hide_on_mobile">
+	Apologies! There were too many SMS message requests in a short period, so you’ll have to wait a moment to try again.
+	</p>
+<p id="error_unknown" class="alert alert_error" style="display: none;">
+	<i class="ts_icon ts_icon_warning"></i> Hmmm... something went wrong. Please try again.</p></div>
+
+	
+<div class="real_content card align_center span_4_of_6 col float_none margin_auto large_bottom_margin right_padding large_bottom_padding">
+	<h1 id="signin_header" class="tiny_bottom_margin"> 
+	Sign in to <span class="break_word">Tapzo</span>
+	</h1>
+
+	<p class="medium_bottom_margin">tapzo.slack.com</p>
+
+	
+	<div class="col span_4_of_6 float_none margin_auto signin_card">
+		<form id="signin_form" action="/" method="post" accept-encoding="UTF-8">
+			<input type="hidden" name="signin" value="1">
+			<input type="hidden" name="redir" value="/files/U5E7A0ECE/F8ZELCK6D/default_d3_benefits.jpg">
+						<input type="hidden" name="crumb" value="s-1517365415-fe070098752b1bebb62b9772678b623a80ba6d61846887e289af0fdd21143dea-☃">
+
+			<p class="browser_password align_left">Enter your <strong>email address</strong> and <strong>password</strong>.</p>
+			<p class="ssb_password hidden">What is your <strong>password</strong>?</p>
+
+			<p class=" no_bottom_margin">
+				<input type="email" id="email" name="email" size="40" value="" placeholder="you@example.com" class="">
+			</p>
+
+			<p class=" small_bottom_margin">
+				<input type="password" id="password" name="password" size="40" placeholder="password">
+			</p>
+
+			
+						
+
+			<p><button id="signin_btn" type="submit" class="btn btn_large full_width ladda-button" data-style="expand-right"><span class="ladda-label">Sign in</span><span class="ladda-spinner"></span></button></p>
+
+			<div class="align_left">
+				<label class="checkbox normal inline_block small_right_margin"><input type="checkbox" name="remember" checked=""> Remember me</label>
+			</div>
+	
+			<div class="align_left small_top_margin">
+				<a id="forgot-pw" href="/forgot">Forgot password?</a>
+									· <a href="https://slack.com/get-started">Forgot which email you used?</a>
+							</div>
+
+		</form>
+		<div id="magic_login_cta" class="float_none margin_auto hidden">
+
+   		<div class="or no_wrap small_top_padding medium_bottom_margin align_center">or</div>
+
+			 <p class="large_bottom_margin"><strong>Long password? Hard to type?</strong><br> We can email you a magic link so you can sign in without having to type your password.</p>
+
+			<form id="magic_login" action="/" method="post" accept-encoding="UTF-8" class="align_center float_none margin_auto medium_bottom_margin">
+				<input type="hidden" name="crumb" value="s-1517365415-fe070098752b1bebb62b9772678b623a80ba6d61846887e289af0fdd21143dea-☃">
+				<input type="hidden" name="email">
+				<input type="hidden" name="signin_request_magiclogin" value="1">
+				<button class="btn btn_large btn_outline full_width"><ts-icon class="ts_icon_magic"></ts-icon>Email Me A Link</button>
+			</form>	
+
+		</div>
+
+
+	</div>
+
+	<p class="small clear_both taller_line_height">
+			</p>
+</div>
+	
+<div class="real_content align_center">
+			<p>
+			<span class="bold">Don't have an account on this workspace yet?</span>
+			<span class="clear_both block">Contact the workspace administrator for an invitation</span>
+		</p>
+	
+	
+			<p>
+			Trying to create a workspace?			
+	
+	<a data-gtm-click="SignUp" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=inc_download_app_or_sign_in_cta_sign_up_link" href="/create" class="bold">Create a new workspace</a>
+			</p>
+	</div>
+
+		<footer data-qa="footer">
+	<section class="links">
+		<div class="grid">
+			<div class="col span_1_of_4 nav_col">
+				<ul>
+					<li class="cat_1">Using Slack</li>
+					<li><a href="/is" data-qa="product_footer" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_product">Product</a></li>
+					<li><a href="/enterprise" data-qa="enterprise_footer" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_enterprise">Enterprise</a></li>
+					<li><a href="/pricing?ui_step=28&amp;ui_element=5" data-qa="pricing_footer" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_pricing">Pricing</a></li>
+					<li><a href="https://get.slack.help/hc/en-us" data-qa="support_footer" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_support">Support</a></li>
+					<li><a href="/guides" data-qa="getting_started" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_getting_started">Slack Guides</a></li>
+					<li><a href="/apps" data-qa="app_directory" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_app_directory">App Directory</a></li>
+					<li><a href="https://api.slack.com/" data-qa="api" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_api">API</a></li>
+				</ul>
+			</div>
+			<div class="col span_1_of_4 nav_col">
+				<ul>
+					<li class="cat_2">Slack <ts-icon class="ts_icon_heart"></ts-icon></li>
+					<li><a href="/jobs" data-qa="jobs" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_jobs">Jobs</a></li>
+					<li><a href="/customers" data-qa="customers" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_customers">Customers</a></li>
+					<li><a href="/developers" data-qa="developers" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_developers">Developers</a></li>
+					<li><a href="/events" data-qa="events" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_events">Events</a></li>
+					<li><a href="https://slackhq.com/" data-qa="blog_footer" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_blog">Blog</a></li>
+					<li><a href="/podcast" data-qa="podcast" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_podcast">Podcast</a></li>
+					<li><a href="https://slack.shop/" data-qa="slack_shop" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_slack_shop">Slack Shop</a></li>
+				</ul>
+			</div>
+			<div class="col span_1_of_4 nav_col">
+				<ul>
+					<li class="cat_3">Legal</li>
+					<li><a href="/privacy-policy" data-qa="privacy" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_privacy">Privacy</a></li>
+					<li><a href="/security" data-qa="security" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_security">Security</a></li>
+					<li><a href="/terms-of-service" data-qa="tos" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_tos">Terms of Service</a></li>
+					<li><a href="/policies" data-qa="policies" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_policies">Policies</a></li>
+				</ul>
+			</div>
+			<div class="col span_1_of_4 nav_col">
+				<ul>
+					<li class="cat_4">Handy Links</li>
+					<li><a href="/downloads" data-qa="downloads" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_downloads">Download desktop app</a></li>
+					<li><a href="/downloads" data-qa="downloads_mobile" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_downloads_mobile">Download mobile app</a></li>
+					<li><a href="/brand-guidelines" data-qa="brand_guidelines" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_brand_guidelines">Brand Guidelines</a></li>
+					<li><a href="https://slackatwork.com" data-qa="slack_at_work" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_slack_at_work">Slack at Work</a></li>
+					<li><a href="https://status.slack.com/" data-qa="status" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_status">Status</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<div class="footnote">
+		<section>
+			<a href="https://slack.com" aria-label="Slack homepage" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_slack_icon"><ts-icon class="ts_icon_slack_pillow" aria-hidden="true"></ts-icon></a>
+			<ul>
+				<li>
+					<a href="/help/contact" data-qa="contact_us" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_contact_us">Contact Us</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/SlackHQ" data-qa="slack_twitter" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_slack_twitter" aria-label="Slack on Twitter"><ts-icon class="ts_icon_twitter" aria-hidden="true"></ts-icon></a>
+				</li>
+				<li class="yt">
+					<a href="https://www.youtube.com/channel/UCY3YECgeBcLCzIrFLP4gblw" data-qa="slack_youtube" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=footer_slack_youtube" aria-label="Slack on YouTube"><ts-icon class="ts_icon_youtube" aria-hidden="true"></ts-icon></a>
+				</li>
+			</ul>
+		</section>
+		
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js""></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
