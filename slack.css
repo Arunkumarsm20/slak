@@ -1,0 +1,137 @@
+element.style{}
+	.alert.alert-info{
+		    border-left-color: #2d9ee0;}
+.alert{
+	padding: .75rem 1rem .7rem 3rem;
+	border:1px solid #e8e8e8;
+	background: #fff;
+	color: #2c2d30;
+	border-left-width: 5px;
+	margin: 0 auto 1rem;
+	border-radius: .25rem;
+
+	}
+
+	
+	#page-content{
+		margin: 0 auto;
+		padding: 8rem 2rem;
+	}
+	#page_contents{
+		padding: 6rem 2rem;
+	}
+	h1{
+		font-size: 2rem;
+		line-height: 2.5rem;
+		letter-spacing: -1px;
+	}
+	h1, h2, h3, h4, h5{
+		font-weight: 700;
+		font-family: Slack-Lato,appleLogo,sans-serif;
+		margin: 0 0 1rem;
+	}
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.align_center{
+	text-align: center;
+}
+.align_center, .centered {
+    text-align: center!important;}
+    [lang] body {
+    font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
+}
+body {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    background: #f9f9f9;
+    font-size: 1.125rem;
+}
+body {
+    font-family: Slack-Lato,appleLogo,sans-serif;
+    font-variant-ligatures: common-ligatures;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #2c2d30;
+    line-height: 1.5rem;}
+    .tiny_bottom_margin {
+    margin-bottom: 1.6px;}
+    .tiny_bottom_margin {
+    margin-bottom: .1rem!important
+}
+body, html {
+    width: 100%;
+    overflow-x: hidden;}
+    html {
+    height: 100%;
+}
+html[Attributes Style] {
+    -webkit-locale: "en-US";}
+    html {
+    display: block;
+
+}
+.col+.col {
+    margin-left: 1.6%;}
+.large_bottom_padding {
+    padding-bottom: 24px}
+    .right_padding {
+    padding-right: 16px;}
+    .margin_auto {
+    margin-left: auto;
+    margin-right: auto;}
+.large_bottom_margin {
+    margin-bottom: 24px;}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block}
+.navbar-inverse .navbar-brand{
+	color: orange;
+}
+body{
+background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMWFRUWFxcXGBcXGRgaFRcXHRUXFxcXFxgeHSggGBolHRcaITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAPFy0lHSUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDB//EACcQAAIBAQUJAQEAAAAAAAAAAAAB8BECITFBYVFxgZGhwdHh8bES/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACBf/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A9MQkhqctxkxJihJRIqlauEtWGSI1Z6i0XspsmopIBmBppGkr/ZiwpebVfZQwjaCpLUSEhn6KChIoq6FZY2ptEsvfN5Ks7Xi9xAg7PPiiSxF9ZzKk6XciTCV26cBtUnsWDtEFQH4QRk0AFpYozWbTVpeg4zYFZrm2FTTK0jLLBl7DdqTiYbCs1GWjVoH+AGCNEGMtIUwQoWikKQWTQtQrUqBZsmkhJSuyFPkZNo01D/NfwWwsi905C0kaoDISpgKtRSpJbOj8FZmZJV3dg6z9NWVKy8kp+YkcUyFUJr4VZUSGimQ2uQYyXACgKus0ZVxqpEKDkzBvQWsZeCXjr2AJvKbzP8p1iNWgcW4BRaBzmNJxzC0pcAYoZTNKSYmXN3AywzQGjWPcyDIc2haFsGgDJDVSpACjRlCJaoawMmrJqNQmqmaTQUxJQ1mQYyUFMmo0ic2AmDEuiVC5fhmhSVEtCC/Of6NmbRJk2FSXdyUiKzFgJatBjjNhWh/CLLKu4rp0jBsAZNSrtngKInh7JD+eN8oKe9EnNsoYpuIEG5mLbnYAAaC08YheEpTwZtLK+aAzU3w1ZhubR2dAtIyzWWFSk2AwZTZmppmUDK/lbSM2mQBsbJcSsi00mKBDUSUbRlOY9SNNRpjJsM1mQ0ItVFgyQtNUuFuXgpcU2CSlMPhV2gxTIoUwan0lh6FNTNkSl1zKvxdBJUnEw/w3OpiRBVTuZOd95IFEQFp3+dwtmXUqzMArUXKcQwnQHntc8jXTDYAAVoNZ4M6eACTmZi6+ZGmZBmgGjTncwwZoMo0AMqrEy3LyBNlQhQkkiRVncS2kSBChaIklvFPgJKQIqS4eSEm6eClxeSEtSMGKkqC3cSJpLyaJdDMy/RTdnT0SB/PpTBkWrW7xwM13TMWwb+LuSSQUU8FKg7WoBNU+k1M/RA+MmZBUmIfgtyIy8Ml+gFX7eExJsGADZMnhLt5m0DInUuZMH89mQGDnMZlEFSZZqRq6KpAsLNNmUIk1FhMyUyElDUqkyLVRM2XJkKtbjRboRnlwxGugtNTIpsMoakijVTDGX/egkzMayn4SQPcROhPXmCUQEm3WYmU9nT6C5knPZBUuum/aStSrDf2BPgAPRkDnwH1BGShN66TYZr8xJKey0alambMvK4ag3rXkAL3TQwxYLYuOwAuQLPIqzQG5sBkN5gzVZlgZf4AZbEeHUiDRqXmExUuFoskSFMklMDV5lMZmJjVlfRmdUYUlLirpUS6EmHWbBTeQtI11M01FYShIq1MSUwM1FbiRmvMrTmFd4YFNwlulZduBBvJcPPHMkm5cSc9BUmSVSCu+mozeAUwf4FQpPBJyZEkuM1M6DNeATQAXvvrgFdZqFZLyc9gAVbipl9BzdvIBzaTrJcTcy6Dw1ngAwLJIyATsyMicwIATRkqiWmOoAJaTNGa8RmAksUr/ACDWhVjJNPXuSsgnKk5hXcJaJLQOc4Ep6It1kWABWVXUpd9E61wKaGeXYiTStbuHkv63hWXAnMtxatarv6AZ5C5MiSrJgyzwLj17A5c+wAoGEQNy4gXyK09Qd07GXamIJqmmemJm0yykY/1nOFCCylWASMpGASBgXEAqA2NM5uCpIMhScoRDEKQJDUkkKYDSeiJFOL0ZES0hW0zUiR3GqzyYmQoS1Sexpp0MrlNha9ZgRNZ4Gs9GSFNVuJcJwBCnIryS/qsXUk55Lr1Mz4Sabn0K6BUaS7wSTnst05EgkZI1noG9e3wKjWV/QQYLYTHD7cQWzsDc/byTnoK3+wGhsESBTEAWVCrxBMkgIrIBJbiLgRJCCKpIoUwIU1UkCIi0VTNBqKMzElLwmhFpOey/eBmS4aEiVZUOQ1m0SWyM/wBSYFQkeRTQq7wqSLcu6EpgFfvgqzuCN30q8ZsQJh/WpLWpgCfIm5nQGQ1J1lwWrURMrS4TEkXLgTBUCoDWm52MlSTErKnckmgZV00kzJgFUBbwMokiFJT4QAkRJClUhrMQUmRFoEBpsUmxqCZNypEkmEiGsy/CSYzIEVeIo0lCr7BkyTUuJozXLxOBdCJbBjMgTJNc+ZWpKXmWyVCRmC7E+HMCb29ySBDSZE5MwAoP9TKahaIkspECT+I07gJJLD0BVkxAgqgIMEmDFsmAVXqQEKIgRIkRElUakRIVGpERQ0IhSSyKokRSRKuREKUlSkQkRAWnvEgGr+pGCZEGjVUiISmgYkQDU7j3IiKa0BMiKoUKhEQDIiMgVJkRIoCIi//Z);
+background-position: center;
+background-size: cover;}
+footer {
+    border-top: 1px solid #e8e8e8;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+    padding: 40px 0 0;
+    color: #717274;
+}
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Slack-Lato,appleLogo,sans-serif;
+    font-variant-ligatures: common-ligatures;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #2c2d30;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
